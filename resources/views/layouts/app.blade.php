@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,8 +18,22 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <style>
+        
+    </style>
+
+
 </head>
 <body>
+
+    <div class="container">
+        @component('component_navbar_menor', [ "current" => $current ])
+        @endcomponent
+        @component('component_navbar_maior', [ "current" => $current ])
+        @endcomponent
+    </div>
+    
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -73,8 +87,13 @@
         </nav>
 
         <main class="py-4">
-            @yield('content')
+           @hasSection('body')
+                @yield('body')
+            @endif
         </main>
     </div>
+
+    <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+    
 </body>
 </html>

@@ -1,4 +1,4 @@
-@extends('layouts.app-padrao', ["current" => "nova-comida"])
+@extends('layouts.app', ["current" => "nova-comida"])
 @section('title', 'Ecommerce Davi')
 @section('body')
 
