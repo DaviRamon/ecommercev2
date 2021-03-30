@@ -12,13 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('welcome');
 });
-
-Route::get('/login', function () {
-    return view('login');
-});
-
 
 
 // rotas para comidas

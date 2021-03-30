@@ -34,7 +34,7 @@
 
       <ul class="navbar-nav ml-auto">
         <li  @if($current=="home") class="nav-item active" @else class="nav-item" @endif>
-          <a class="nav-link"  href="/">ENTRAR</a>
+          <a class="nav-link"  href="/">Sair</a>
         </li>
         
               <!--
