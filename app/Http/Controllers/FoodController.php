@@ -8,6 +8,18 @@ use App\Comida;
 
 class FoodController extends Controller
 {
+
+
+    public function __construct()
+    {   
+        //  Para poder acessar o controlador index() precisa estar autenticado. 
+        $this->middleware('auth');
+    }
+
+
+
+
+
     /**
      * mostra a view com uma lista da view  comidas
      *

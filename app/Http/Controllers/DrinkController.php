@@ -9,6 +9,18 @@ use App\Bebida;
 
 class DrinkController extends Controller
 {
+
+
+    public function __construct()
+    {   
+        //  Para poder acessar o controlador index() precisa estar autenticado. 
+        $this->middleware('auth');
+    }
+
+
+
+
+
      /**
      *retorna a view principal das bebidas.
      *
