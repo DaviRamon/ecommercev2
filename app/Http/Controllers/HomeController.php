@@ -10,9 +10,11 @@ class HomeController extends Controller
      * Create a new controller instance.
      *
      * @return void
+     * 
      */
     public function __construct()
-    {
+    {   
+        //  Para poder acessar o controlardo index() precisa estar autenticado. 
         $this->middleware('auth');
     }
 

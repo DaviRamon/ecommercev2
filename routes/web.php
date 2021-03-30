@@ -12,16 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('home-logada');
+    return view('login');
 });
 
 Route::get('/login', function () {
     return view('login');
-});
-
-
-Route::get('/email', function () {
-    return view('email');
 });
 
 
