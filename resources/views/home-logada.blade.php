@@ -1,4 +1,4 @@
-@extends('layouts.app', ["current" => "home-logada"])
+@extends('layouts.app')
 @section('title', 'Ecommerce Davi')
 @section('body')
 
@@ -32,11 +32,4 @@
 </div>
 
 
-
-
-
-
-
-
- 
 @endsection

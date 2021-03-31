@@ -1,8 +1,4 @@
-
-@extends('layouts.app', ["current" => "home"])
-@section('title', 'Ecommerce Davi')
-@section('body')
-
+@extends('layouts.app')
 
 @section('content')
 <div class="container">
