@@ -39,15 +39,8 @@ Route::post('/bebidas/{id}', 'DrinkController@updateDrink');
 Route::get('/home', 'HomeController@index');
 
 
-
-
-
-
-
-
-
-
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/admin', 'AdminController@index')->name('homedamin');
