@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 // Usado para Logar como Administrador
 class AdminController extends Controller
 {
-    public function _construct()
+    public function __construct()
     {
         $this->middleware('auth:admin');
     }
