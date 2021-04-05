@@ -36,7 +36,7 @@ Route::get('/bebidas/editar/{id}', 'DrinkController@editDrink');
 Route::post('/bebidas/{id}', 'DrinkController@updateDrink');
 
 
-Route::get('/home-logada', 'HomeController@index');
+Route::get('/home', 'HomeController@index');
 
 
 
