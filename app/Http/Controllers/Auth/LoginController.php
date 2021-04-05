@@ -32,6 +32,8 @@ class LoginController extends Controller
      *
      * @return void
      */
+
+     // somente o guest (convidado) pode acessar o LoginController
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
