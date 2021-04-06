@@ -8,7 +8,7 @@
     <style>
         
         body{
-            background-image: url(/imagens/background.jpg);
+            background-color: rgb(232, 225, 225);
             padding: 20px;
         }
         .navbar{
