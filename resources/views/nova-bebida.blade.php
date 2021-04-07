@@ -52,8 +52,8 @@
 @endif                                    
                 </div>
 
-                <button type="submit" class="btn btn-success btn-sm" id="btnass">Salvar</button>
-                <button href="/bebidas"  class="btn btn-danger btn-sm">Cancelar</button>
+                <button type="submit" class="btn btn-dark btn-sm" id="btnass">Salvar</button>
+                <button href="/bebidas"  class="btn btn-dark btn-sm">Cancelar</button>
             </form>
         </div>
     </div>

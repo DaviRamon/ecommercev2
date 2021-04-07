@@ -70,8 +70,8 @@
 
             
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-success btn-sm" >Salvar</button>
-                    <button type="submit" class="btn btn-danger btn-sm" data-dissmiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-dark btn-sm" >Salvar</button>
+                    <button type="submit" class="btn btn-dark btn-sm" data-dissmiss="modal">Cancelar</button>
         
                 </div>
         </form>
