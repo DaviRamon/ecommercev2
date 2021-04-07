@@ -3,6 +3,7 @@
 @section('body')
 
 <main role="main">
+<div class="container">
     <div class="card border">
         <div class="card-body">
             <form action="/bebidas" method="POST" onclick="checkForm()">
@@ -56,6 +57,9 @@
             </form>
         </div>
     </div>
+
+</div>
+   
 </main>
 
 <script type="text/javascript">
