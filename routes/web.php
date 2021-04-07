@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/app', function () {
+    return view('layouts/app');
+});
+
+
 
 // rotas para comidas
 Route::get('/comidas', 'FoodController@index');
