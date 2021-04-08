@@ -62,7 +62,7 @@
                     <div class="form-group">
                         <label for="precoComida" class="control-label"> Preço</label>
                         <div class="input-group">
-                            <input type="text" class="form-control" id="precoComidaa" placeholder="Informe o valor R$:">
+                            <input type="text" class="form-control" id="precoComida" placeholder="Informe o valor R$:">
                         </div>
                     </div>
 
@@ -89,7 +89,14 @@
 <script>
 
     function novaComida(){
-        $('#dlgComida').modal('show')
+        // limpa os campos ao abrir um novo formulario
+        $('#id').val('');
+        $('#nomeComida').val('');
+        $('#quantidadeComida').val('');
+        $('#precoComida').val('');
+        
+        //mostra o formulário para adicionar novos produtos
+        $('#dlgComida').modal('show');
 
     }
     
